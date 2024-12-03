@@ -66,8 +66,8 @@ public class Main {
         byte totalIceCream = 2;
         byte totalEgg = 4;
 
-        int result = (banana * totalBanana) + (milk * totalMilk) + (iceCream * totalIceCream) + (egg * totalEgg);
-        System.out.println("Вес спортзавтрака в граммах: " + result + " гр.\nВес спортзавтрака в киллограмах: " + (result / 1000) + " кг.");
+        int result = (banana * totalBanana) + (milk * (totalMilk / 100)) + (iceCream * totalIceCream) + (egg * totalEgg);
+        System.out.println("Вес спортзавтрака в граммах: " + result + " гр.\nВес спортзавтрака в киллограмах: " + (result / 1000f) + " кг.");
 
         System.out.println();
         // Задание 7
